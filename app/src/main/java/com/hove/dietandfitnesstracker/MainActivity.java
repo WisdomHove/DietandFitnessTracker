@@ -47,12 +47,7 @@ public class MainActivity extends AppCompatActivity
         load_bar.startAnimation(load_progress);
         load_bar2.startAnimation(load_stop);
 
-        start.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openUserPage();
-            }
-        });
+        start.setOnClickListener(v -> openUserPage());
 
 
 
@@ -60,7 +55,7 @@ public class MainActivity extends AppCompatActivity
 
     public void openUserPage()
     {
-        Intent intent = new Intent(this, UserProfile.class);
+        Intent intent = new Intent(this, HomePage.class);
         startActivity(intent);
     }
 }
