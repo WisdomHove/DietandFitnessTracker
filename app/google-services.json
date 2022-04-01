@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "896339998455",
+    "firebase_url": "https://dietfitness-default-rtdb.firebaseio.com",
+    "project_id": "dietfitness",
+    "storage_bucket": "dietfitness.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896339998455:android:037b24efdfc700a63e85f2",
+        "android_client_info": {
+          "package_name": "com.hove.dietandfitnesstracke"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896339998455-0arbrutail47fvikpo1u4chk90h9i4h6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hove.dietandfitnesstracke",
+            "certificate_hash": "b82e1f4d298530cddb33184d9492b11df10b6fda"
+          }
+        },
+        {
+          "client_id": "896339998455-132v166ufj2625o8mghtevb76ucqiha7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmu8TE59EWWCWR7wpvvLCDj08MPnT-duM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896339998455-132v166ufj2625o8mghtevb76ucqiha7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896339998455:android:713061512491e71e3e85f2",
+        "android_client_info": {
+          "package_name": "com.hove.dietandfitnesstracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896339998455-132v166ufj2625o8mghtevb76ucqiha7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmu8TE59EWWCWR7wpvvLCDj08MPnT-duM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896339998455-132v166ufj2625o8mghtevb76ucqiha7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Diet and Fitness Tracker</string>
+    <string name="get_started">Get Started</string>
+    <string name="whey_men_16_22">~ Whey Men 16:22</string>
+    <string name="concentrate_on_yourself_n_no_one_got_you_the_way_you_do">CONCENTRATE ON YOURSELF \n NO ONE GOT YOU THE WAY YOU DO</string>
+    <string name="Open" />
+    <string name="Close" />
+    <string name="workout_timer">Workout Timer</string>
+    <string name="profile_creation">Profile Creation</string>
+    <string name="calorie_calculator">Calorie Calculator</string>
+    <string name="calorie_tracker">Calorie Tracker</string>
+    <string name="training_splits">Training Splits</string>
+    <string name="_60">60</string>
+    <string name="calories_taken">Calories Taken = 0 KCAL</string>
+    <string name="calories">Calories</string>
+    <string name="kcal">KCAL</string>
+    <string name="reset">RESET</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="enter_height_in_cm">Enter Height (in cm)</string>
+    <string name="enter_weight_in_kg">Enter weight (in kg)</string>
+    <string name="enter_gender">Enter Gender</string>
+</resources>
