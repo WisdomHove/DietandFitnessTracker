@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity
         anim_title=AnimationUtils.loadAnimation(this,R.anim.title);
         btn_anim=AnimationUtils.loadAnimation(this, R.anim.btnanim);
         load_progress=AnimationUtils.loadAnimation(this, R.anim.progress);
-        load_stop=AnimationUtils.loadAnimation(this,R.anim.progress_stop);
+         load_stop=AnimationUtils.loadAnimation(this,R.anim.progress_stop);
 
         title=(TextView) findViewById(R.id.title_txt);
         subtitle=(TextView) findViewById(R.id.subtitle_txt);

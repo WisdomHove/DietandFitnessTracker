@@ -19,4 +19,11 @@
     <string name="enter_height_in_cm">Enter Height (in cm)</string>
     <string name="enter_weight_in_kg">Enter weight (in kg)</string>
     <string name="enter_gender">Enter Gender</string>
+    <string name="diet_and_fitness_tracker">Diet and Fitness Tracker</string>
+
+    <array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Prefer not to Say</item>
+    </array>
 </resources>
