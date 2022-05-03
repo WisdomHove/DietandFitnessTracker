@@ -54,8 +54,9 @@
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <TextView
-        android:layout_width="269dp"
-        android:layout_height="179dp"
+        android:id="@+id/textView20"
+        android:layout_width="274dp"
+        android:layout_height="142dp"
         android:layout_marginTop="70dp"
         android:fontFamily="@font/baloo"
         android:text=" 1. Dumbbell Press (3x16)\n 2. Dumbbell Flys (3x12)\n 3. Decline Press (3x18)\n 4. Military Press (3x12)\n 5. Dumbbell Rows (3x12)\n 6. Lat Rows (3x18)\n 7. Cable Rows (3x12)\n 8. Barbell DeadLift (3x8)"
@@ -90,6 +91,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <TextView
+        android:id="@+id/textView15"
         android:layout_width="269dp"
         android:layout_height="179dp"
         android:layout_marginTop="320dp"
@@ -136,6 +138,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="99dp"
+        android:layout_height="37dp"
+        android:text="View"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:layout_constraintVertical_bias="0.42"
+        android:onClick="StartVideo"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,6 +20,7 @@
     <string name="enter_weight_in_kg">Enter weight (in kg)</string>
     <string name="enter_gender">Enter Gender</string>
     <string name="diet_and_fitness_tracker">Diet and Fitness Tracker</string>
+    <string name="hello" />
 
     <array name="gender">
         <item>Male</item>
