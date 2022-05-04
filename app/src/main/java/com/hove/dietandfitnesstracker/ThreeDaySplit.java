@@ -19,4 +19,16 @@ public class ThreeDaySplit extends AppCompatActivity {
         Intent intent = new Intent(ThreeDaySplit.this, WebViewActivity.class);
         startActivity(intent);
     }
+
+    public void StartVideo2(View view) {
+
+        Intent intent = new Intent(ThreeDaySplit.this, WebViewActivity2.class);
+        startActivity(intent);
+    }
+
+    public void StartVideo3(View view) {
+
+        Intent intent = new Intent(ThreeDaySplit.this, WebViewActivity3.class);
+        startActivity(intent);
+    }
 }
