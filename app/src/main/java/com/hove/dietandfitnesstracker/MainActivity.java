@@ -11,6 +11,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
+
 public class MainActivity extends AppCompatActivity
 {
     TextView title , subtitle;
@@ -24,6 +28,9 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        AppCenter.start(getApplication(), "f134f689-5e51-4f39-90cd-d433aaf852bf",
+                Analytics.class, Crashes.class);
 
         anim_img1= AnimationUtils.loadAnimation(this,R.anim.animimage1);
         anim_title=AnimationUtils.loadAnimation(this,R.anim.title);

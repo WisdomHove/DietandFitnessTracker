@@ -24,6 +24,8 @@
         <activity android:name=".UserProfile" />
         <activity android:name=".AndroidVideoPlayer"/>
         <activity android:name=".WebViewActivity"/>
+        <activity android:name=".WebViewActivity2"/>
+        <activity android:name=".WebViewActivity3"/>
 
         <activity
             android:name=".MainActivity"
